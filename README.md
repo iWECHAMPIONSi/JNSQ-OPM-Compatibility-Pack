@@ -10,7 +10,7 @@ Dependancies are OPM and its dependancies, Rescale Continued and its dependancie
 for Rescale Continued you might have to download the zip file, as the download links in the release page don't seem to work
 
 to install, simply drag the GameData folder into the KSP install directory, or the contents of GameData into the KSP GameData folder
-It will ask to replace 5 files, hit yes.
+It will ask to replace some, hit yes.
 Now you also need to navigate to OPM\KopernicusConfigs\SarnusMoons and delete Eeloo.cfg (it's a good idea to have a backup of OPM on hand if you want Eeloo to be a moon in a non-JNSQ save)
 
 If you want to have Eeloo as a moon instead, you'll need to do that part yourself
