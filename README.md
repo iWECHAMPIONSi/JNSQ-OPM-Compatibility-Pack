@@ -6,8 +6,7 @@ This allows for compatibility between JNSQ and OPM
 
 I'm assuming you are capable of manual mod instalation, and I wouldn't reccomend using CKAN as CKAN will probably freak out that Eeloo.cfg doesn't exist inside OPM (idk, I don't use CKAN)
 
-Dependancies are OPM and its dependancies, Rescale Continued and its dependancies (use the 2.5x version)
-for Rescale Continued you might have to download the zip file, as the download links in the release page don't seem to work
+Dependancies are OPM and its dependancies, Sigma-Dimensions and its dependancies
 
 to install, simply drag the GameData folder into the KSP install directory, or the contents of GameData into the KSP GameData folder
 It will ask to replace some, hit yes.
