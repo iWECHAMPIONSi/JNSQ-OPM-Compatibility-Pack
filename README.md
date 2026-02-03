@@ -1,7 +1,5 @@
 # JNSQ-OPM-Compatibility-Pack
 
-# NOTE, THIS DOES ABSOLUTELY NOTHING EXCEPT MAKE EELOO COMPATIBLE, IT DOES NOT RESCALE THE PLANETS, CURRENTLY WORKING ON PATCH TO FIX THIS
-
 For those who think JNSQ, GEP, and GPP together aren't enough planets
 
 This allows for compatibility between JNSQ and OPM
@@ -17,9 +15,26 @@ Now you also need to navigate to OPM\KopernicusConfigs\SarnusMoons and delete Ee
 If you want to have Eeloo as a moon instead, you'll need to do that part yourself
 basically delete all references to Eeloo inside JNSQ instead of OPM, and only use the rescale folder. You will need to add in these lines into the config to resize Eeloo
 ```
-@Body[Eeloo]
+@Body:HAS[#name[Eeloo]]
 {
-  DoRescale = True
+  @SigmaDimensions
+  {
+    @Resize = 2.7
+    @Rescale = 2.7
+    @dayLengthMultiplier = 2
+
+    @landscape = 0.37
+    @geeASLmultiplier = 1
+
+    @resizeScatter = 1
+    @resizeBuildings = 0
+    @groundTiling = 1
+
+    @CustomSoISize = 0
+
+    @lightRange = 1
+    @scanAltitude = 2.7
+  }
 }
 ```
 Planning on eventually adding a fork that does this for you, although that will take more time
