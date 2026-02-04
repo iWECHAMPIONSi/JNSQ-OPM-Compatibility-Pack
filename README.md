@@ -21,6 +21,7 @@ basically delete all references to Eeloo inside JNSQ instead of OPM, and only us
   {
     @Resize = 2.7
     @Rescale = 2.7
+    @Atmosphere = 1.1
     @dayLengthMultiplier = 2
 
     @landscape = 0.37
@@ -31,6 +32,11 @@ basically delete all references to Eeloo inside JNSQ instead of OPM, and only us
     @groundTiling = 1
 
     @CustomSoISize = 0
+
+    @atmoASL = 1
+    @tempASL = 1
+    @atmoTopLayer = 1
+  	@atmoVisualEffect = 1
 
     @lightRange = 1
     @scanAltitude = 2.7
